@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "61.0",
+    "name": "Mock Response as UserScript Managers for WebCoder",
+    "version": "1.0",
+    "permissions": [
+        "notifications",
+        "unlimitedStorage",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "contextMenus",
+        "<all_urls>"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "offline_enabled": true,
+    "incognito": "split"
+}
